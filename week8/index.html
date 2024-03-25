@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web 101</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="search-bar">
+      <input
+        type="text"
+        name="countries"
+        class="country_search"
+        placeholder="search with country name"
+      />
+      <button type="button" class="search-button">search</button>
+      <button type="button" class="clear-button" onclick="clear_all()">
+        clear
+      </button>
+      <!-- <button type="button" class="clear-button" onclick="show_all_country()">
+        a
+      </button> -->
+    </div>
+    <main class="container">
+      <div class="countries"></div>
+    </main>
+  </body>
+</html>

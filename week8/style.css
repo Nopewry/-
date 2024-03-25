@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* Set base font size to 10px */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333; /* Darker text color for better readability */
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.country_search {
+  padding: 10px;
+  font-size: 1.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search-button,
+.clear-button {
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  /* opacity: 0; */
+  justify-content: center;
+}
+
+.country {
+  width: 30rem;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  border-radius: 0.7rem;
+  margin: 1.5rem 3rem;
+}
+
+.country_img {
+  width: 30rem;
+  height: 17rem;
+  object-fit: cover;
+  background-color: #eee;
+  border-top-left-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+}
+
+.country_data {
+  padding: 2.5rem;
+}
+
+.country_region {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.country_row:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.country_row span {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 2.4rem;
+}
+
+.btn-close {
+  background-color: transparent;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.2s;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.btn-close:hover {
+  opacity: 0.8;
+  background-color: lightgray;
+}

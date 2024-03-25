@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="myForm">
+        <h2>ลงทระเบียล</h2>
+        <div class="frmDiv">
+          <label for="username">username : </label>
+          <input type="text" name="username" id="username" />
+          <small>error message</small>
+        </div>
+        <div class="frmDiv">
+          <label for="email">email : </label>
+          <input type="text" name="email" id="email" />
+          <small>error message</small>
+        </div>
+        <div class="frmDiv">
+          <label for="password">password : </label>
+          <input type="password" name="password" id="password" />
+          <small id="password_error">error message</small>
+        </div>
+        <div class="frmDiv">
+          <label for="confirm">confirm : </label>
+          <input type="password" name="confirm" id="confirm" />
+          <small id="confirm_error">error message</small>
+        </div>
+        <button type="submit" class="bt">submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

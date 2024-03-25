@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e4e9c9;
+  color: #4a8764;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.frmDiv {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.bt {
+  background-color: #ff2323;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.bt:hover {
+  background-color: #45a049;
+}
+
+.frmDiv small {
+  color: #ff2323;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.frmDiv botton {
+  cursor: pointer;
+}
+
+.frmDiv.error small {
+  visibility: visible;
+}
+
+.frmDiv.error input {
+  border-color: red;
+}
+
+.frmDiv.correct small {
+  color: lightgreen;
+  visibility: visible;
+}
+
+.frmDiv.correct input {
+  border-color: lightgreen;
+}

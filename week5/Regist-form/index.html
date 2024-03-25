@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="myform">
+        <div id = "box">
+        <h1>Form Chang</h1>
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" required />
+        
+        <br>
+        
+        <label for="gender">Gender : </label>
+        <input type="radio" id="male" name="gender" value="Male"/>
+        <label for="nale">Male</label>
+        <input type="radio" id="female" name="gender" value="Female"/>
+        <label for="nale">Female</label>
+        
+        <br>
+        
+        <label for="interest">Interests : </label>
+        <input type="checkbox" name="interest" id="a" value="a" />
+        <label for="a">a</label>
+        <input type="checkbox" name="interest" id="b" value="b" />
+        <label for="b">b</label>
+        
+        <br>
+        
+        <label for="country">Contry : </label>
+        <select name="country" id="country">
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+        </select>
+    
+        <br>
+    
+        <input type="submit" value="submit" />
+        </div>
+    </form>
+    <div id="result"></div>
+    <script src="script1.js"></script>
+  </body>
+</html>
